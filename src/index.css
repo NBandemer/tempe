@@ -1,19 +1,35 @@
 .App {
     height: 100vh;
     width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 18vw;
 }
 
+.place {
+    display: inline-flex;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.place select {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-height: 30px;
+    text-align: center;
+}
 .search {
     padding: 20px;
     text-align: center;
 }
 .map-container {
-    height: 60%;
+    height: 100%;
     width: 60%;
     border: 5px solid black;
     display: block;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
 }
 
 button {
